@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ApkUpdaterClient">
+	<!-- The constants source filename. -->
+    <property name="file.build" value="TODO" />
+
+    <!-- Apk repository directory. -->
+    <property name="apk.repo.dir" value=".apk_repo" />
+
+    <!-- The path to the git executable. -->
+    <property name="git.path" value="/usr/bin/git" />
+
+    <!-- Determine if .git is available in the running directory. -->
+    <available file=".git" type="dir" property="git.present" />
+
+    <!-- Deploy debug APK. -->
+    <target name="-package-jar" unless="build.is.mode.release">
+    	<buildnumber/>
+        <copy file="${out.dir}/classes.jar" tofile="${out.dir}/${ant.project.name}.jar" /> 
+    </target>
+
+    <!-- Run before -build to update the build file. -->
+    <target name="-pre-build">
+    </target>
+
+    <target name="-pre-compile">
+    </target>
+
+    <!-- Run after -compile to do any cleanup. -->
+    <target name="-post-compile">
+    </target>
+
+    <!-- Run after -build. -->
+    <target name="-post-build">
+      <antcall target="-package-jar" />
+    </target>
+</project>

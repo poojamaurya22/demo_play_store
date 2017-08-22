@@ -1,0 +1,36 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 226 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1798753 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Comparable compareTo (Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/lang/String compareTo (Ljava/lang/String;)I 1353 16937 2588 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 241 1 56 0 -1
+ciMethod java/lang/Class getComponentType ()Ljava/lang/Class; 153 1 19 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/util/Comparator compare (Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/ArrayList sort (Ljava/util/Comparator;)V 2049 1 5376 0 -1
+ciMethod java/util/Arrays rangeCheck (III)V 265 1 5157 0 128
+ciMethod java/util/Arrays sort ([Ljava/lang/Object;II)V 0 0 1659 0 0
+ciMethod java/util/Arrays legacyMergeSort ([Ljava/lang/Object;II)V 0 0 1 0 -1
+ciMethod java/util/Arrays sort ([Ljava/lang/Object;IILjava/util/Comparator;)V 2049 1 5375 0 0
+ciMethod java/util/Arrays legacyMergeSort ([Ljava/lang/Object;IILjava/util/Comparator;)V 0 0 1 0 -1
+ciMethod java/lang/Enum compareTo (Ljava/lang/Enum;)I 2049 1 6847 0 128
+ciMethod java/lang/Enum getDeclaringClass ()Ljava/lang/Class; 9 1 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1798753 orig 264 72 34 237 117 0 0 0 0 128 4 78 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 131 219 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/reflect/Array newInstance (Ljava/lang/Class;I)Ljava/lang/Object; 105 1 16 0 0
+ciMethod java/lang/reflect/Array newArray (Ljava/lang/Class;I)Ljava/lang/Object; 129 1 16 0 -1
+ciMethod java/util/Arrays$LegacyMergeSort access$000 ()Z 2065 1 6774 0 0
+ciMethod java/util/TimSort <init> ([Ljava/lang/Object;Ljava/util/Comparator;[Ljava/lang/Object;II)V 0 0 2 0 0
+ciMethod java/util/TimSort sort ([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II)V 2065 1 4627 0 0
+ciMethod java/util/TimSort binarySort ([Ljava/lang/Object;IIILjava/util/Comparator;)V 65 49 679 0 0
+ciMethod java/util/TimSort countRunAndMakeAscending ([Ljava/lang/Object;IILjava/util/Comparator;)I 65 1 684 0 0
+ciMethod java/util/TimSort reverseRange ([Ljava/lang/Object;II)V 137 137 17 0 0
+ciMethod java/util/TimSort minRunLength (I)I 1 1 2 0 0
+ciMethod java/util/TimSort pushRun (II)V 0 0 6 0 0
+ciMethod java/util/TimSort mergeCollapse ()V 1 1 6 0 0
+ciMethod java/util/TimSort mergeForceCollapse ()V 1 1 2 0 0
+ciMethod java/util/TimSort mergeAt (I)V 33 1 4 0 -1
+ciMethodData java/lang/reflect/Array newInstance (Ljava/lang/Class;I)Ljava/lang/Object; 1 16 orig 264 72 34 237 117 0 0 0 0 24 161 102 27 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 25 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x3 oops 0
+ciMethodData java/util/Arrays rangeCheck (III)V 2 5157 orig 264 72 34 237 117 0 0 0 0 192 33 97 27 0 0 0 0 24 3 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 0 0 0 33 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 192 1 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 56 0x20007 0x1406 0x160 0x0 0xd0002 0x0 0x120005 0x0 0x0 0x0 0x0 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x1f0005 0x0 0x0 0x0 0x0 0x0 0x240005 0x0 0x0 0x0 0x0 0x0 0x270005 0x0 0x0 0x0 0x0 0x0 0x2a0002 0x0 0x2f0007 0x1406 0x30 0x0 0x370002 0x0 0x3d0007 0x1406 0x30 0x0 0x450002 0x0

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="130dip"
+    android:id="@+id/adds"
+    android:oneshot="false">
+    <item android:drawable="@drawable/ads1" android:duration="5000" />
+    <item android:drawable="@drawable/ads2" android:duration="5000" />
+    <item android:drawable="@drawable/ads3" android:duration="5000" />
+    <item android:drawable="@drawable/ads4" android:duration="5000" />
+</animation-list>
